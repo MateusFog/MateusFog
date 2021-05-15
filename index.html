@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet">
+<title>Anúncios Online</title>
+ <script src="localstorage.js"></script>    
+             
+</head>
+<body>      
+ <h2>Cadastro de Anucios e Gerador de Resultados</h2>    
+  
+      <form>
+<input type="text" id="anuncio" placeholder="Nome do Anúncio"></br>
+<input type="text" id="nomeCliente" placeholder="Nome do Cliente"></br>
+<input type="date" id="dataInicio" placeholder="Data de Inicio"></br>
+<input type="date" id="dataFim" placeholder="Data de Término"></br>
+<input type="number" id="valor" placeholder="Investimento Diário"></br>
+<input type="submit" value="salvar" id="btoSalvar" onclick="salvarForm()">
+                 	
+ <h1> Tabela de Relatorios</h1>
+<table id="minhaTabela">
+  <thead>
+   <tr>
+    <th>Nome do Cliente</th>
+    <th>Valor Investido</th>
+    <th>Data Inicio</th>
+    <th>Data Final</th>
+    <th>Alcance de Compartilhamentos</th>
+    <th>Alcance de Click's</th>
+    <th>Alcance de Visualizações</th>
+    </tr>
+  </thead>
+  <tbody>
+         	
+  </tbody>
+ 
+</table>
+  
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+      $('#minhaTabela').DataTable({
+        "language": {
+        "lengthMenu": "Mostrando _MENU_ registros por página",
+        "zeroRecords": "Nada encontrado",
+        "info": "Mostrando página _PAGE_ de _PAGES_",
+        "infoEmpty": "Nenhum registro disponível",
+        "infoFiltered": "(filtrado de _MAX_ registros no total)"
+            }
+        });
+  });
+  </script>
+  
+</body>
+</html>
