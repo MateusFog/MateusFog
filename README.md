@@ -18,7 +18,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-    O codigo JavaScript permite cadastrar Anuncios de forma organizada no localStorage, e mostrando em seguir numa tabela, um relatorio baseado em dados pré-definidos no codigo e pelo Usuario, atraves de uma interface em HTML5
+    O codigo JavaScript permite cadastrar Anuncios de forma organizada no localStorage, e mostrando em seguida, numa tabela, um relatorio baseado em dados pré-definidos no codigo e pelo Usuario, atraves de uma interface em HTML5
 </p>
 
 ## Funcionalidades
@@ -32,10 +32,11 @@ instalar algum IDE(testado em VisualStudioCode -- https://code.visualstudio.com/
 Certifique-se de que os arquivos estao salvos no mesmo diretorio.
 
 ## Como rodar a aplicação :arrow_forward:
-Abra o arquivo index.html com algum IDE, execute-o normalmente 
+Abra o arquivo index.html com algum IDE, execute-o normalmente.
+A Aplicação está hospedada em um site (https://calctestedomateus.000webhostapp.com/).
 
 ## Como rodar os testes
-Ao iniciar o index.html uma pagina sera aberta no browser com uma interface contendo, campos a preencher e uma tabela onde sera impresso os relatorios, preencha os dados conforme o formulario orienta.
+Ao iniciar o index.html uma pagina sera aberta no browser com uma interface contendo campos a preencher e uma tabela onde sera impresso os relatorios, preencha os dados conforme o formulario orienta.
 
 ## Tarefas em aberto
 
