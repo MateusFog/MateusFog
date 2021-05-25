@@ -23,17 +23,18 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: Persistencia de Dados em localStorage 
+:heavy_check_mark: Persistencia de Dados em localStorage. 
 
-:heavy_check_mark: Facil leitura dos relatorios de anuncios cadastrados em tempo real
+:heavy_check_mark: Facil leitura dos relatorios de anuncios cadastrados em tempo real.
 
 ## Pré-requisitos
-instalar algum IDE(testado em VisualStudioCode -- https://code.visualstudio.com/docs/?dv=win32user). 
+Instalar algum IDE(testado em [VisualStudioCode](https://code.visualstudio.com/docs/?dv=win32user)). 
 Certifique-se de que os arquivos estao salvos no mesmo diretorio.
 
 ## Como rodar a aplicação :arrow_forward:
 Abra o arquivo index.html com algum IDE, execute-o normalmente.
-A Aplicação está hospedada em um site (https://calctestedomateus.000webhostapp.com/).
+
+A Aplicação está hospedada gratuitamente em um [site](https://calctestedomateus.000webhostapp.com/).
 
 ## Como rodar os testes
 Ao iniciar o index.html uma pagina sera aberta no browser com uma interface contendo campos a preencher e uma tabela onde sera impresso os relatorios, preencha os dados conforme o formulario orienta.
@@ -49,4 +50,4 @@ Ao iniciar o index.html uma pagina sera aberta no browser com uma interface cont
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - Titulo do Projeto
+Copyright :copyright: 2021 - Aprendendo.
